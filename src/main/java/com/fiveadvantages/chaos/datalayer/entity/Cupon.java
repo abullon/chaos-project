@@ -10,7 +10,7 @@ import com.j256.ormlite.table.DatabaseTable;
 @DatabaseTable(tableName = "chaos_cupon")
 public class Cupon {
 
-    @DatabaseField(canBeNull = false)
+    @DatabaseField(id = true,canBeNull = false)
     private int idCupon;
     @DatabaseField(canBeNull = false)
     private String descripcion;
