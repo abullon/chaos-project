@@ -1,5 +1,8 @@
-package om.fiveadvantages.chaos.service;
+package com.fiveadvantages.chaos.service;
 
+/**
+ * @author Foncho A.K.A. Papi polvora
+ */
 
 import ch.qos.logback.classic.Logger;
 import com.fiveadvantages.chaos.datalayer.dto.CuponDTO;

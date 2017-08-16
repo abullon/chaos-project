@@ -1,5 +1,9 @@
 package com.fiveadvantages.chaos.datalayer.entity;
 
+/**
+ * @author Foncho A.K.A. Papi polvora
+ */
+
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 

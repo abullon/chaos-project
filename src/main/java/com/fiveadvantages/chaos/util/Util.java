@@ -1,4 +1,7 @@
 package com.fiveadvantages.chaos.util;
+/**
+ * @author Foncho A.K.A. Papi polvora
+ */
 
 import io.advantageous.boon.core.reflection.BeanUtils;
 

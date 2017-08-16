@@ -1,5 +1,9 @@
 package com.fiveadvantages.chaos.server;
 
+/**
+ * @author Foncho A.K.A. Papi polvora
+ */
+
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.LoggerContext;
@@ -8,7 +12,7 @@ import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.FileAppender;
 import io.advantageous.qbit.server.EndpointServerBuilder;
 import io.advantageous.qbit.server.ServiceEndpointServer;
-import om.fiveadvantages.chaos.service.CuponService;
+import com.fiveadvantages.chaos.service.CuponService;
 import org.slf4j.LoggerFactory;
 
 public class Launcher {
