@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.advantageous.qbit:qbit-admin:1.10.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/advantageous/qbit/qbit-admin/1.10.0.RELEASE/qbit-admin-1.10.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/advantageous/qbit/qbit-admin/1.10.0.RELEASE/qbit-admin-1.10.0.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/advantageous/qbit/qbit-admin/1.10.0.RELEASE/qbit-admin-1.10.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

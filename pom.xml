@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.5advantages.incubator</groupId>
+    <artifactId>chaos</artifactId>
+    <version>1.0-STARTUP</version>
+<dependencies>
+    <dependency>
+        <groupId>io.advantageous.qbit</groupId>
+        <artifactId>qbit-admin</artifactId>
+        <version>1.10.0.RELEASE</version>
+    </dependency>
+    <dependency>
+        <groupId>io.advantageous.qbit</groupId>
+        <artifactId>qbit-vertx</artifactId>
+        <version>1.10.0.RELEASE</version>
+    </dependency>
+    <dependency>
+        <groupId>com.j256.ormlite</groupId>
+        <artifactId>ormlite-core</artifactId>
+        <version>4.48</version>
+    </dependency>
+    <dependency>
+        <groupId>com.j256.ormlite</groupId>
+        <artifactId>ormlite-jdbc</artifactId>
+        <version>4.48</version>
+    </dependency>
+    <dependency>
+        <groupId>commons-beanutils</groupId>
+        <artifactId>commons-beanutils</artifactId>
+        <version>1.9.3</version>
+    </dependency>
+
+    <!--LOG-->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.12</version>
+    </dependency>
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.1.2</version>
+    </dependency>
+
+    <!--POSTGRESQL-->
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.1.4</version>
+    </dependency>
+</dependencies>
+
+</project>
