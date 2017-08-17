@@ -8,7 +8,7 @@ import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
 @DatabaseTable(tableName = "chaos_cupon")
-public class Cupon {
+public class Cupon extends Entity{
 
     @DatabaseField(id = true,canBeNull = false)
     private int idCupon;

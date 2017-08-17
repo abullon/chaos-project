@@ -4,7 +4,7 @@ package com.fiveadvantages.chaos.datalayer.dto;
  * @author Foncho A.K.A. Papi polvora
  */
 
-public class CuponDTO {
+public class CuponDTO extends DTO{
 
 
     private int idCupon;

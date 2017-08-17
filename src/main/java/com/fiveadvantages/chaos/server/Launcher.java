@@ -41,11 +41,11 @@ public class Launcher {
             fileAppender.start();
             Logger logger = (Logger) LoggerFactory.getLogger("MonitorLOG");
             logger.addAppender(fileAppender);
-            logger.setLevel(Level.INFO);
+            logger.setLevel(Level.DEBUG);
             logger.setAdditive(true);
 
             Logger root = (Logger) LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME);
-            root.setLevel(Level.INFO);
+            root.setLevel(Level.DEBUG);
         } catch (Exception e) {
             e.printStackTrace();
         }
